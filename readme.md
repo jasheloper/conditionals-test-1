@@ -17,3 +17,18 @@ In this task you are provided with two variables:
     - If not, it should assign a generic string to response that tells the user we don't know what season it is.
 
 - To finish off, you should then add another test that checks whether season contains the string <b>"winter"</b>, and again assigns an appropriate string to response.
+
+
+## My Solution:
+
+```
+    // Add your code here
+    
+    if (season === 'summer') {
+        response = "Pack for the beach."
+    } else if (season === 'winter') {
+        response = "Stay inside and drink a hot beverage."
+    } else {
+        response = "Sorry. Season not found."
+    }
+```
