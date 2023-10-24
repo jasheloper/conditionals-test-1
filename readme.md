@@ -23,6 +23,9 @@ In this task you are provided with two variables:
 
 ```
     // Add your code here
+
+    let season = 'summer';
+    let response;
     
     if (season === 'summer') {
         response = "Pack for the beach."
